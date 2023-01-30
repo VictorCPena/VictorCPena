@@ -1,3 +1,5 @@
+- 🔭 Apaixonado por tecnologia
+- 🌱 Estudante Ciência de Dados
 <div align="center">
   <a href="https://github.com/VictorCPena">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=VictorCPena&show_icons=true&theme=cobalt&include_all_commits=true&count_private=true"/>
