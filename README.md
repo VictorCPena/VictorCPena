@@ -2,8 +2,6 @@
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-cpena/)
 
-![Victor languages](https://github-readme-stats.vercel.app/api/top-langs/?username=VictorCPena&theme=blue-green)
-
  <div align="center">
   <a href="https://github.com/VictorCPena">
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VictorCPena&layout=compact&langs_count=7&theme=cobalt"/>
