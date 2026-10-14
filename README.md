@@ -2,7 +2,7 @@
 
 **Engenharia de Dados · Ciência de Dados · Machine Learning**
 
-Graduando em **Ciência de Dados na Universidade Federal do Ceará (UFC)**. Trabalho com coleta, transformação e análise de dados, automação de pipelines e aplicações de machine learning. Meu foco é construir soluções de ponta a ponta, com **qualidade, testes, reprodutibilidade e decisões técnicas bem documentadas**.
+Graduando em **Ciência de Dados na Universidade Federal do Ceará (UFC)**. Trabalho com coleta, transformação e análise de dados, automação de pipelines, dados geoespaciais e aplicações de machine learning. Meu foco é construir soluções de ponta a ponta, com **qualidade, testes, reprodutibilidade e decisões técnicas bem documentadas**.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil_profissional-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victor-cpena/)
 [![Projetos](https://img.shields.io/badge/GitHub-Repositórios-24292F?style=flat-square&logo=github&logoColor=white)](https://github.com/VictorCPena?tab=repositories)
@@ -19,7 +19,16 @@ Pipeline incremental com **Python, SQL, DuckDB e Parquet**, incluindo ledger de 
 - **Engenharia:** replay idempotente, testes de concorrência com escritor único, falhas antes/depois do commit, backup e restauração auditada.
 - **Qualidade:** 26 testes locais aprovados, além de workflow de CI aprovado.
 
-### 02. [Previsão de Demanda — Machine Learning e MLOps](https://github.com/VictorCPena/previsao-demanda-mlops)
+### 02. [Ceará Road Safety — Plataforma de Engenharia de Dados e Segurança Viária](https://github.com/VictorCPena/ceara-road-safety-data-platform)
+
+Plataforma de dados para estudar a **segurança viária no Ceará**, combinando informações públicas da **PRF, IBGE e Open-Meteo** em pipelines de ingestão, transformação, modelagem analítica e visualização geográfica.
+
+- **Arquitetura:** camadas Bronze, Silver e Gold em **Parquet**, consultas no **DuckDB**, transformações e testes com **dbt**, orquestração com **Apache Airflow** e ambiente reproduzível com **Docker Compose e PostgreSQL**.
+- **Evidência:** processamento documentado de **194.443 ocorrências da PRF**, incluindo **3.559 registros no recorte do Ceará**, e integração de dados de **184 municípios do IBGE**.
+- **Aplicação:** *Observatório Viário CE* em **Streamlit**, com mapas, indicadores, recortes territoriais e exploração de trechos críticos. O projeto também possui testes e integração contínua.
+- **Extensão acadêmica:** [API pública de indicadores viários (repositório em equipe)](https://github.com/ayurireiscentraldedados/interface-grafica), construída separadamente com **FastAPI** e documentação OpenAPI.
+
+### 03. [Previsão de Demanda — Machine Learning e MLOps](https://github.com/VictorCPena/previsao-demanda-mlops)
 
 [![CI MLOps](https://github.com/VictorCPena/previsao-demanda-mlops/actions/workflows/ci.yml/badge.svg)](https://github.com/VictorCPena/previsao-demanda-mlops/actions/workflows/ci.yml)
 
@@ -29,7 +38,7 @@ Sistema de previsão diária com **scikit-learn, MLflow e FastAPI**, validação
 - **Avaliação:** backtesting recursivo de D+1 a D+14, cenários de promoção, intervalos calibrados por horizonte, cold start e testes locais de carga.
 - **Qualidade:** 29 testes locais aprovados, além de workflow de CI aprovado.
 
-### 03. [Experimentação A/B — Estatística e decisão](https://github.com/VictorCPena/experimentacao-ab-marketing)
+### 04. [Experimentação A/B — Estatística e decisão](https://github.com/VictorCPena/experimentacao-ab-marketing)
 
 [![CI A/B](https://github.com/VictorCPena/experimentacao-ab-marketing/actions/workflows/ci.yml/badge.svg)](https://github.com/VictorCPena/experimentacao-ab-marketing/actions/workflows/ci.yml)
 
@@ -39,16 +48,16 @@ Estudo de experimentação com **Python, pandas e SciPy**, testes de hipóteses,
 - **Avaliação:** randomização por clusters, correlação entre métricas e comparação de testes sequenciais com e sem controle de falsos positivos.
 - **Qualidade:** 23 testes locais aprovados, além de workflow de CI aprovado.
 
-> **Sobre os resultados:** os três repositórios utilizam **dados sintéticos**. As métricas acima são evidências de execuções locais realizadas em outubro de 2026, não resultados de clientes ou garantias de desempenho em produção. Os projetos documentam metodologia, limitações e como reproduzir os testes.
+> **Sobre os dados e resultados:** Data Hub, Previsão de Demanda e Experimentação A/B usam **dados sintéticos**, com métricas de execuções locais de outubro de 2026. O **Ceará Road Safety trabalha com bases públicas**, cujos recortes e tratamentos estão documentados no projeto. Nenhuma métrica representa resultado de cliente ou garantia de desempenho em produção.
 
 ## Tecnologias
 
 | Área | Ferramentas |
 | --- | --- |
 | **Linguagens e análise** | Python, SQL, R, pandas, NumPy |
-| **Engenharia de dados** | PostgreSQL, DuckDB, PySpark, Apache Parquet, AWS Lambda, Amazon Athena |
+| **Engenharia de dados** | PostgreSQL, DuckDB, dbt, Apache Airflow, PySpark, Apache Parquet, AWS Lambda, Amazon Athena |
 | **Machine Learning e NLP** | scikit-learn, MLflow, PyTorch, Transformers |
-| **APIs e automação** | FastAPI, Selenium, Playwright |
+| **APIs e automação** | FastAPI, Streamlit, Selenium, Playwright |
 | **Qualidade e entrega** | pytest, Git, GitHub Actions, Docker |
 
 ## Como trabalho
